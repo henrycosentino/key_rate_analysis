@@ -2,7 +2,7 @@
 - The purpose of this project was to create a machine learning model that utilizes macroeconomic variables as inputs to accurately predict 1-year and 10-year U.S. Treasury yields.
   
 ## Steps Involved:
-- Extract data from the Bloomberg Terminal using the API and import it into Excel
+- Extract data from the Bloomberg Terminal using the API and import into Excel
 - Load data from Excel into Python
 - Clean data frames
 - Impute monthly and quarterly macroeconomic data
