@@ -2,14 +2,14 @@
 - The purpose of this project was to create a machine learning model that utilizes macroeconomic variables as inputs to accurately predict 1-year and 10-year U.S. Treasury yields.
   
 ## Steps Involved:
-- Extract data from the Bloomberg Terminal using the API and import into Excel
+- Extract data from the Bloomberg Terminal using the API and import it into Excel
 - Load data from Excel into Python
 - Clean data frames
 - Impute monthly and quarterly macroeconomic data
   - Impute missing values using a compound growth rate method to disaggregate data to a lower frequency.
 - Impute daily macroeconomic data
-  - The imputation method assumed a simple linear relationship, and was primarly used to clean-up one-off daily missing values.
-- A time period was defined
+  - The imputation method assumed a simple linear relationship and was primarily used to clean up one-off daily missing values.
+- A period was defined
   - End: 2024-07-25.
   - Start: 2004-11-05.
   - The start date was constrained by data availability.
