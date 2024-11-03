@@ -18,6 +18,6 @@
 - Shifting the data and finding relationships
   - Shift the data by various intervals. Specifically, the target variables were shifted backward to align with previous data. Analyze the data through correlation matrices and plot the strongest correlations between target variables and predictors.
 - Machine learning
-  - Construct a loop for each target variable to train a model on a specific shifted dataset. For example, if the model is designed to predict interest rates one year from now, the data would be shifted by 365 steps. The loop iterates over a range of steps, trains a model for each step, and calculates key statistics for each model.
+  - Construct a loop for each target variable to train a model on a specific shifted dataset. For example, if the model is designed to predict interest rates one year from now, the data would be shifted by roughly 250 steps (the data is set to trading/business days). The loop iterates over a range of steps, trains a model for each step, and calculates key statistics for each model.
 - Visualizing model accuracy
   - Visualize the statistics generated from each step to determine the time periods during which the model is most effective at predicting interest rates. Root Mean Square Error (RMSE) and R-squared values are used to demonstrate the predictive accuracy of each model.
