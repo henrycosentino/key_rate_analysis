@@ -6,7 +6,7 @@
 - Load data from Excel into Python
 - Clean data frames
 - Impute monthly and quarterly macroeconomic data
-  - Impute missing values using a compound growth rate method to disaggregate data to a lower frequency.
+  - Impute missing values using a compound and linear growth rate method to disaggregate data to a lower frequency.
 - Impute daily macroeconomic data
   - The imputation method assumed a simple linear relationship and was primarily used to clean up one-off daily missing values.
 - A period was defined
@@ -20,4 +20,4 @@
 - Machine learning
   - Construct a loop for each target variable to train a model on a specific shifted dataset. For example, if the model is designed to predict interest rates one year from now, the data would be shifted by roughly 250 steps (the data is set to trading/business days). The loop iterates over a range of steps, trains a model for each step, and calculates key statistics for each model.
 - Visualizing model accuracy
-  - Visualize the statistics generated from each step to determine the time periods during which the model is most effective at predicting interest rates. Root Mean Square Error (RMSE) and R-squared values are used to demonstrate the predictive accuracy of each model.
+  - Visualize the statistics generated from each step to determine the time periods during which the model is most effective at predicting interest rates. Root Mean Square Error (RMSE) and Mean Absolute Error (MAE) values are used to demonstrate the predictive accuracy of each model.
